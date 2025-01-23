@@ -1,0 +1,7 @@
+pandas
+transformers
+openai
+sentencepiece
+datasets
+torch
+sentencepiece

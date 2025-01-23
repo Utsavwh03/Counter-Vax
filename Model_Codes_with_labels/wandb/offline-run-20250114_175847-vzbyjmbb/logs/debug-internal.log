@@ -1,0 +1,13 @@
+{"time":"2025-01-14T17:58:47.526704051+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-14T17:58:47.526748746+05:30","level":"INFO","msg":"created symlink","path":"/home/antpc/HDD2/sohampoddar/utsav/Model_Codes/wandb/offline-run-20250114_175847-vzbyjmbb/logs/debug-core.log"}
+{"time":"2025-01-14T17:58:47.744596807+05:30","level":"INFO","msg":"created new stream","id":"vzbyjmbb"}
+{"time":"2025-01-14T17:58:47.744646553+05:30","level":"INFO","msg":"stream: started","id":"vzbyjmbb"}
+{"time":"2025-01-14T17:58:47.744815373+05:30","level":"INFO","msg":"handler: started","stream_id":"vzbyjmbb"}
+{"time":"2025-01-14T17:58:47.745193667+05:30","level":"INFO","msg":"sender: started","stream_id":"vzbyjmbb"}
+{"time":"2025-01-14T17:58:47.745195613+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vzbyjmbb"}
+{"time":"2025-01-14T17:58:47.764108278+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-14T17:58:48.087732424+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-14T17:59:07.302559761+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-14T17:59:07.49611763+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-14T17:59:11.293177608+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-14T17:59:13.390865635+05:30","level":"INFO","msg":"Pausing system monitor"}

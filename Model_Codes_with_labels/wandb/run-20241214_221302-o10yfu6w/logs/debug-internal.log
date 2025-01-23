@@ -1,0 +1,9 @@
+{"time":"2024-12-14T22:13:02.582032052+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-14T22:13:02.582067512+05:30","level":"INFO","msg":"created symlink","path":"/home/antpc/HDD2/sohampoddar/utsav/Model_Codes/wandb/run-20241214_221302-o10yfu6w/logs/debug-core.log"}
+{"time":"2024-12-14T22:13:02.799919566+05:30","level":"INFO","msg":"created new stream","id":"o10yfu6w"}
+{"time":"2024-12-14T22:13:02.79999128+05:30","level":"INFO","msg":"stream: started","id":"o10yfu6w"}
+{"time":"2024-12-14T22:13:02.800115633+05:30","level":"INFO","msg":"handler: started","stream_id":"o10yfu6w"}
+{"time":"2024-12-14T22:13:02.800565509+05:30","level":"INFO","msg":"sender: started","stream_id":"o10yfu6w"}
+{"time":"2024-12-14T22:13:02.800572061+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"o10yfu6w"}
+{"time":"2024-12-14T22:13:03.366021946+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T22:36:18.386634553+05:30","level":"INFO","msg":"Pausing system monitor"}

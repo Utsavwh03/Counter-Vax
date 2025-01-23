@@ -1,0 +1,668 @@
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/home/sohampoddar/anaconda3/envs/dl/lib/python3.9/site-packages/torch/utils/checkpoint.py:464: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.4 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+[codecarbon INFO @ 12:18:26] Energy consumed for RAM : 0.000196 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:18:26] Energy consumed for all GPUs : 0.001091 kWh. Total GPU Power : 261.7578703379385 W
+[codecarbon INFO @ 12:18:26] Energy consumed for all CPUs : 0.000221 kWh. Total CPU Power : 52.95127985113382 W
+[codecarbon INFO @ 12:18:26] 0.001508 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:18:41] Energy consumed for RAM : 0.000392 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:18:41] Energy consumed for all GPUs : 0.002241 kWh. Total GPU Power : 276.1268963798597 W
+[codecarbon INFO @ 12:18:41] Energy consumed for all CPUs : 0.000441 kWh. Total CPU Power : 52.89775332847564 W
+[codecarbon INFO @ 12:18:41] 0.003075 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:18:56] Energy consumed for RAM : 0.000588 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:18:56] Energy consumed for all GPUs : 0.003397 kWh. Total GPU Power : 277.4980726714953 W
+[codecarbon INFO @ 12:18:56] Energy consumed for all CPUs : 0.000661 kWh. Total CPU Power : 52.669701795167164 W
+[codecarbon INFO @ 12:18:56] 0.004646 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:19:11] Energy consumed for RAM : 0.000784 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:19:11] Energy consumed for all GPUs : 0.004595 kWh. Total GPU Power : 287.80955347978926 W
+[codecarbon INFO @ 12:19:11] Energy consumed for all CPUs : 0.000879 kWh. Total CPU Power : 52.47552483875471 W
+[codecarbon INFO @ 12:19:11] 0.006259 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:19:26] Energy consumed for RAM : 0.000980 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:19:26] Energy consumed for all GPUs : 0.005828 kWh. Total GPU Power : 295.9728688528003 W
+[codecarbon INFO @ 12:19:26] Energy consumed for all CPUs : 0.001101 kWh. Total CPU Power : 53.271979041846606 W
+[codecarbon INFO @ 12:19:26] 0.007909 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:19:41] Energy consumed for RAM : 0.001176 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:19:41] Energy consumed for all GPUs : 0.007068 kWh. Total GPU Power : 297.89946737749614 W
+[codecarbon INFO @ 12:19:41] Energy consumed for all CPUs : 0.001321 kWh. Total CPU Power : 52.82882766167559 W
+[codecarbon INFO @ 12:19:41] 0.009566 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:19:56] Energy consumed for RAM : 0.001372 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:19:56] Energy consumed for all GPUs : 0.008326 kWh. Total GPU Power : 301.99787128866177 W
+[codecarbon INFO @ 12:19:56] Energy consumed for all CPUs : 0.001542 kWh. Total CPU Power : 53.01088238588207 W
+[codecarbon INFO @ 12:19:56] 0.011240 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:20:11] Energy consumed for RAM : 0.001568 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:20:11] Energy consumed for all GPUs : 0.009585 kWh. Total GPU Power : 302.2509949424724 W
+[codecarbon INFO @ 12:20:11] Energy consumed for all CPUs : 0.001763 kWh. Total CPU Power : 53.14774431769052 W
+[codecarbon INFO @ 12:20:11] 0.012916 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:20:26] Energy consumed for RAM : 0.001764 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:20:26] Energy consumed for all GPUs : 0.010845 kWh. Total GPU Power : 302.5733868215663 W
+[codecarbon INFO @ 12:20:26] Energy consumed for all CPUs : 0.001983 kWh. Total CPU Power : 52.80336350626468 W
+[codecarbon INFO @ 12:20:26] 0.014593 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:20:41] Energy consumed for RAM : 0.001960 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:20:41] Energy consumed for all GPUs : 0.012093 kWh. Total GPU Power : 299.74793933993163 W
+[codecarbon INFO @ 12:20:41] Energy consumed for all CPUs : 0.002203 kWh. Total CPU Power : 52.69705425641545 W
+[codecarbon INFO @ 12:20:41] 0.016256 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:20:56] Energy consumed for RAM : 0.002156 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:20:56] Energy consumed for all GPUs : 0.013337 kWh. Total GPU Power : 298.5800195219299 W
+[codecarbon INFO @ 12:20:56] Energy consumed for all CPUs : 0.002424 kWh. Total CPU Power : 52.94375793549224 W
+[codecarbon INFO @ 12:20:56] 0.017916 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:21:11] Energy consumed for RAM : 0.002352 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:21:11] Energy consumed for all GPUs : 0.014583 kWh. Total GPU Power : 299.3835306255954 W
+[codecarbon INFO @ 12:21:11] Energy consumed for all CPUs : 0.002645 kWh. Total CPU Power : 53.111055372184865 W
+[codecarbon INFO @ 12:21:11] 0.019580 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:21:26] Energy consumed for RAM : 0.002548 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:21:26] Energy consumed for all GPUs : 0.015824 kWh. Total GPU Power : 298.0062709624959 W
+[codecarbon INFO @ 12:21:26] Energy consumed for all CPUs : 0.002866 kWh. Total CPU Power : 53.08863110204891 W
+[codecarbon INFO @ 12:21:26] 0.021238 kWh of electricity used since the beginning.
+
+***** Running Evaluation *****
+  Num examples = 987
+  Batch size = 2
+[codecarbon INFO @ 12:21:41] Energy consumed for RAM : 0.002744 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:21:41] Energy consumed for all GPUs : 0.017114 kWh. Total GPU Power : 309.82608101536493 W
+[codecarbon INFO @ 12:21:41] Energy consumed for all CPUs : 0.003094 kWh. Total CPU Power : 54.67236314201196 W
+[codecarbon INFO @ 12:21:41] 0.022952 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:21:56] Energy consumed for RAM : 0.002940 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:21:56] Energy consumed for all GPUs : 0.018437 kWh. Total GPU Power : 317.6415417277439 W
+[codecarbon INFO @ 12:21:56] Energy consumed for all CPUs : 0.003329 kWh. Total CPU Power : 56.43384235978087 W
+[codecarbon INFO @ 12:21:56] 0.024705 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:22:11] Energy consumed for RAM : 0.003136 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:22:11] Energy consumed for all GPUs : 0.019748 kWh. Total GPU Power : 314.8770035583117 W
+[codecarbon INFO @ 12:22:11] Energy consumed for all CPUs : 0.003565 kWh. Total CPU Power : 56.585861928015994 W
+[codecarbon INFO @ 12:22:11] 0.026448 kWh of electricity used since the beginning.
+Saving model checkpoint to /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-375
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/config.json
+Model config LlamaConfig {
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ],
+  "head_dim": 64,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 8192,
+  "max_position_embeddings": 131072,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 16,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": {
+    "factor": 32.0,
+    "high_freq_factor": 4.0,
+    "low_freq_factor": 1.0,
+    "original_max_position_embeddings": 8192,
+    "rope_type": "llama3"
+  },
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": true,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.47.0.dev0",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+tokenizer config file saved in /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-375/tokenizer_config.json
+Special tokens file saved in /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-375/special_tokens_map.json
+/home/sohampoddar/anaconda3/envs/dl/lib/python3.9/site-packages/torch/utils/checkpoint.py:464: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.4 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+[codecarbon INFO @ 12:22:26] Energy consumed for RAM : 0.003332 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:22:26] Energy consumed for all GPUs : 0.020934 kWh. Total GPU Power : 284.7667519700723 W
+[codecarbon INFO @ 12:22:26] Energy consumed for all CPUs : 0.003780 kWh. Total CPU Power : 51.6094268804245 W
+[codecarbon INFO @ 12:22:26] 0.028045 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:22:41] Energy consumed for RAM : 0.003527 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:22:41] Energy consumed for all GPUs : 0.022179 kWh. Total GPU Power : 298.86659100992574 W
+[codecarbon INFO @ 12:22:41] Energy consumed for all CPUs : 0.004000 kWh. Total CPU Power : 53.0493184253677 W
+[codecarbon INFO @ 12:22:41] 0.029707 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:22:56] Energy consumed for RAM : 0.003723 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:22:56] Energy consumed for all GPUs : 0.023425 kWh. Total GPU Power : 299.3621218865722 W
+[codecarbon INFO @ 12:22:56] Energy consumed for all CPUs : 0.004222 kWh. Total CPU Power : 53.20034690660813 W
+[codecarbon INFO @ 12:22:56] 0.031371 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:23:11] Energy consumed for RAM : 0.003919 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:23:11] Energy consumed for all GPUs : 0.024673 kWh. Total GPU Power : 299.56529263968673 W
+[codecarbon INFO @ 12:23:11] Energy consumed for all CPUs : 0.004444 kWh. Total CPU Power : 53.13293771434502 W
+[codecarbon INFO @ 12:23:11] 0.033036 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:23:26] Energy consumed for RAM : 0.004115 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:23:26] Energy consumed for all GPUs : 0.025915 kWh. Total GPU Power : 298.15136537743683 W
+[codecarbon INFO @ 12:23:26] Energy consumed for all CPUs : 0.004665 kWh. Total CPU Power : 53.08431131325786 W
+[codecarbon INFO @ 12:23:26] 0.034695 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:23:41] Energy consumed for RAM : 0.004311 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:23:41] Energy consumed for all GPUs : 0.027165 kWh. Total GPU Power : 299.841165617896 W
+[codecarbon INFO @ 12:23:41] Energy consumed for all CPUs : 0.004886 kWh. Total CPU Power : 53.17011814472016 W
+[codecarbon INFO @ 12:23:41] 0.036362 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:23:56] Energy consumed for RAM : 0.004507 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:23:56] Energy consumed for all GPUs : 0.028424 kWh. Total GPU Power : 302.4597996852211 W
+[codecarbon INFO @ 12:23:56] Energy consumed for all CPUs : 0.005108 kWh. Total CPU Power : 53.23307848730374 W
+[codecarbon INFO @ 12:23:56] 0.038039 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:24:11] Energy consumed for RAM : 0.004703 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:24:11] Energy consumed for all GPUs : 0.029680 kWh. Total GPU Power : 301.7700739264003 W
+[codecarbon INFO @ 12:24:11] Energy consumed for all CPUs : 0.005330 kWh. Total CPU Power : 53.20183700195094 W
+[codecarbon INFO @ 12:24:11] 0.039713 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:24:26] Energy consumed for RAM : 0.004899 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:24:26] Energy consumed for all GPUs : 0.030939 kWh. Total GPU Power : 302.3932635980164 W
+[codecarbon INFO @ 12:24:26] Energy consumed for all CPUs : 0.005552 kWh. Total CPU Power : 53.3836038092135 W
+[codecarbon INFO @ 12:24:26] 0.041391 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:24:41] Energy consumed for RAM : 0.005095 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:24:41] Energy consumed for all GPUs : 0.032192 kWh. Total GPU Power : 300.7098743777871 W
+[codecarbon INFO @ 12:24:41] Energy consumed for all CPUs : 0.005773 kWh. Total CPU Power : 53.08982224131165 W
+[codecarbon INFO @ 12:24:41] 0.043060 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:24:56] Energy consumed for RAM : 0.005291 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:24:56] Energy consumed for all GPUs : 0.033442 kWh. Total GPU Power : 300.1549095214719 W
+[codecarbon INFO @ 12:24:56] Energy consumed for all CPUs : 0.005994 kWh. Total CPU Power : 53.05136965636302 W
+[codecarbon INFO @ 12:24:56] 0.044727 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:25:11] Energy consumed for RAM : 0.005487 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:25:11] Energy consumed for all GPUs : 0.034685 kWh. Total GPU Power : 298.512102521544 W
+[codecarbon INFO @ 12:25:11] Energy consumed for all CPUs : 0.006215 kWh. Total CPU Power : 53.09229852481528 W
+[codecarbon INFO @ 12:25:11] 0.046387 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:25:26] Energy consumed for RAM : 0.005683 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:25:26] Energy consumed for all GPUs : 0.035917 kWh. Total GPU Power : 295.8801287844007 W
+[codecarbon INFO @ 12:25:26] Energy consumed for all CPUs : 0.006436 kWh. Total CPU Power : 52.864495500781075 W
+[codecarbon INFO @ 12:25:26] 0.048036 kWh of electricity used since the beginning.
+Saving model checkpoint to /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-750
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/config.json
+Model config LlamaConfig {
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ],
+  "head_dim": 64,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 8192,
+  "max_position_embeddings": 131072,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 16,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": {
+    "factor": 32.0,
+    "high_freq_factor": 4.0,
+    "low_freq_factor": 1.0,
+    "original_max_position_embeddings": 8192,
+    "rope_type": "llama3"
+  },
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": true,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.47.0.dev0",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+tokenizer config file saved in /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-750/tokenizer_config.json
+Special tokens file saved in /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-750/special_tokens_map.json
+
+***** Running Evaluation *****
+  Num examples = 987
+  Batch size = 2
+[codecarbon INFO @ 12:25:41] Energy consumed for RAM : 0.005879 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:25:41] Energy consumed for all GPUs : 0.037156 kWh. Total GPU Power : 297.60900377789346 W
+[codecarbon INFO @ 12:25:41] Energy consumed for all CPUs : 0.006657 kWh. Total CPU Power : 53.09991858638401 W
+[codecarbon INFO @ 12:25:41] 0.049692 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:25:56] Energy consumed for RAM : 0.006075 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:25:56] Energy consumed for all GPUs : 0.038517 kWh. Total GPU Power : 326.70333251710673 W
+[codecarbon INFO @ 12:25:56] Energy consumed for all CPUs : 0.006893 kWh. Total CPU Power : 56.68624137493076 W
+[codecarbon INFO @ 12:25:56] 0.051485 kWh of electricity used since the beginning.
+[codecarbon INFO @ 12:26:11] Energy consumed for RAM : 0.006271 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:26:11] Energy consumed for all GPUs : 0.039850 kWh. Total GPU Power : 320.13423514174355 W
+[codecarbon INFO @ 12:26:11] Energy consumed for all CPUs : 0.007128 kWh. Total CPU Power : 56.36909836777414 W
+[codecarbon INFO @ 12:26:11] 0.053249 kWh of electricity used since the beginning.
+Saving model checkpoint to /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-750
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/config.json
+Model config LlamaConfig {
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ],
+  "head_dim": 64,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 8192,
+  "max_position_embeddings": 131072,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 16,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": {
+    "factor": 32.0,
+    "high_freq_factor": 4.0,
+    "low_freq_factor": 1.0,
+    "original_max_position_embeddings": 8192,
+    "rope_type": "llama3"
+  },
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": true,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.47.0.dev0",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+tokenizer config file saved in /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-750/tokenizer_config.json
+Special tokens file saved in /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/checkpoint-750/special_tokens_map.json
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+[codecarbon INFO @ 12:26:18] Energy consumed for RAM : 0.006359 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 12:26:18] Energy consumed for all GPUs : 0.040391 kWh. Total GPU Power : 289.2334126551824 W
+[codecarbon INFO @ 12:26:18] Energy consumed for all CPUs : 0.007225 kWh. Total CPU Power : 52.00674067576348 W
+[codecarbon INFO @ 12:26:18] 0.053976 kWh of electricity used since the beginning.
+Saving model checkpoint to /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/config.json
+Model config LlamaConfig {
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ],
+  "head_dim": 64,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 8192,
+  "max_position_embeddings": 131072,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 16,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": {
+    "factor": 32.0,
+    "high_freq_factor": 4.0,
+    "low_freq_factor": 1.0,
+    "original_max_position_embeddings": 8192,
+    "rope_type": "llama3"
+  },
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": true,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.47.0.dev0",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+tokenizer config file saved in /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/tokenizer_config.json
+Special tokens file saved in /home/sohampoddar/HDD2/utsav/Model_without_labels/llama-3.2-fine-tuned_with_labels/special_tokens_map.json
+Using GPU: NVIDIA RTX A6000
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/config.json
+Model config LlamaConfig {
+  "_name_or_path": "meta-llama/Llama-3.2-1B-Instruct",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ],
+  "head_dim": 64,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 8192,
+  "max_position_embeddings": 131072,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 16,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": {
+    "factor": 32.0,
+    "high_freq_factor": 4.0,
+    "low_freq_factor": 1.0,
+    "original_max_position_embeddings": 8192,
+    "rope_type": "llama3"
+  },
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": true,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.47.0.dev0",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+CUDA backend validation successful.
+loading weights file model.safetensors from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/model.safetensors
+Instantiating LlamaForCausalLM model under default dtype torch.bfloat16.
+Generate config GenerationConfig {
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ]
+}
+
+target_dtype {target_dtype} is replaced by `CustomDtype.INT4` for 4-bit BnB quantization
+CUDA backend validation successful.
+All model checkpoint weights were used when initializing LlamaForCausalLM.
+
+All the weights of LlamaForCausalLM were initialized from the model checkpoint at meta-llama/Llama-3.2-1B-Instruct.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlamaForCausalLM for predictions without further training.
+loading configuration file generation_config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/generation_config.json
+Generate config GenerationConfig {
+  "bos_token_id": 128000,
+  "do_sample": true,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ],
+  "temperature": 0.6,
+  "top_p": 0.9
+}
+
+loading file tokenizer.json
+loading file tokenizer.model
+loading file added_tokens.json
+loading file special_tokens_map.json
+loading file tokenizer_config.json
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Device set to use cuda:0
+Map: 100%|██████████| 987/987 [00:00<00:00, 5341.24 examples/s]
+Disabling tokenizer parallelism, we're using DataLoader multithreading already
+Prediction 1: While some people may have concerns about vaccines, it's important to remember that extensive research and testing go into ensuring their safety and effectiveness. Trusting in the science behind the COVID-19 vaccine is crucial in order to protect yourself and others from a potentially deadly virus. It's essential not to spread misinformation or fearmongering which can undermine efforts to control the pandemic. #TrustTheScience #VaccinesSaveLives.
+Reference 1: It's important to remember that vaccines undergo rigorous testing and approval processes before being distributed to the public. Trusting in the science behind the vaccine can help protect not only yourself, but also those around you.
+---
+Prediction 2: While it is understandable that individuals may have concerns about vaccines, it's important to consider the public health implications. Vaccines go through rigorous testing and are approved by regulatory agencies such as the FDA before being distributed to the general population. Attempting to find loopholes could potentially harm not only your own well-being but also those of others who rely on vaccination for protection against serious diseases like COVID-19. It is essential to prioritize herd immunity and protect vulnerable populations rather than pushing for personal freedom over collective safety
+Reference 2: While there may be some exemptions for medical or religious reasons, it is important to consider the greater good of public health. Avoiding the vaccine could put not only yourself at risk, but also those around you. It is important to follow public health guidelines and do your part to help stop the spread of COVID-19.
+---
+Prediction 3: While it is important to consider all information before making decisions about vaccination, it is also crucial not to dismiss potential concerns based on one trial or study. It is possible that there are still unknown risks associated with the COVID-19 vaccine even if they may have shown some level of efficacy in this specific population. Additionally, ongoing research and monitoring will likely be conducted as more data becomes available to ensure the safety and effectiveness of any new treatments, including vaccinations against COVID-19. Trusting only one trial does
+Reference 3: It is important to remember that the AstraZeneca vaccine still provides significant protection against COVID-19, and any vaccine with even 50% efficacy can make a major impact in reducing the spread of the virus and saving lives. It is also essential to have multiple vaccine options in order to reach as many people as possible and achieve herd immunity.
+---
+Prediction 4: While it is true that some pharmaceutical companies have faced criticism in the past, such as the ones involved with the opioid crisis or selling overpriced medications like Viagra, it is important not to generalize their entire industry based on these instances. Pharmaceutical companies invest countless resources into research and development of vaccines and treatments, often facing significant challenges and setbacks along the way. The goal should be finding effective solutions to public health issues rather than assigning blame solely to corporate interests. It is crucial to prioritize evidence-based information when
+Reference 4: While Pfizer may have made profits from their products in the past, it is important to focus on the potential benefits of the Covid vaccine they are developing. The efficacy of the vaccine should be the main priority, rather than focusing on conspiracy theories or past actions of the company.
+---
+Prediction 5: It's important to remember that no one is completely immune from experiencing rare allergic reactions or side effects after receiving a vaccine. It's crucial to weigh these risks against the benefits of vaccination, which can help prevent serious illnesses like measles, mumps, rubella, polio, and others. Consulting with healthcare professionals who specialize in infectious diseases could provide more information about what may have caused your specific reaction. Additionally, it's essential to recognize that not everyone will experience severe side effects following vaccinations. Every person
+Reference 5: It is unlikely that the yellow fever vaccine caused the eczema, as eczema is a common skin condition that can be triggered by a variety of factors such as stress, allergies, and genetics. It is important to consult with a healthcare professional to determine the true cause of the eczema.
+---
+Prediction 6: While it's important to be cautious of any information regarding the safety of vaccines, it's crucial not to jump to conclusions based on one isolated incident. Vaccines go through rigorous testing before being approved by regulatory agencies like the FDA or WHO. The vast majority of people who receive vaccines do not experience severe side effects, but those rare cases are thoroughly monitored and documented. It's essential to trust in the expertise of scientists and healthcare professionals when considering vaccination as a way to protect ourselves from deadly diseases. #
+Reference 6: It is important to consider the source of this information and whether it is based on credible sources. Bill Gates has been a strong advocate for global health and has dedicated a significant amount of resources to vaccination efforts. It is unlikely that he would be apathetic towards widespread vaccine side effects. Further investigation and fact-checking may be necessary before jumping to conclusions.
+---
+Prediction 7: While it's true that no vaccine completely prevents transmission of COVID-19, they have been shown to significantly reduce its severity. Additionally, the rare cases of serious side effects are outweighed by the benefits of widespread vaccination, which has saved countless lives throughout history. The approval process was rigorous and thorough due to scientific research and extensive trials to ensure safety and efficacy before being distributed to the public. It's important to trust in the expertise of healthcare professionals who continually monitor and update guidelines based on new data.
+Reference 7: While it is true that the vaccine may not completely stop transmission of the virus, it has been shown to significantly reduce the severity of illness and hospitalization. Additionally, the potential side effects, such as infertility, are extremely rare and the benefits of widespread vaccination far outweigh the risks. It is important to trust in the expertise of medical professionals and scientists who have extensively studied and developed these vaccines.
+---
+Prediction 8: Actually, there is overwhelming scientific evidence supporting the effectiveness of vaccines in preventing deadly diseases. Vaccines have been proven to save countless lives by reducing the spread of infectious illnesses like COVID-19 and measles. It's important to trust in the expertise of medical professionals who are dedicated to promoting public health through vaccination efforts. #TrustVaccines #ProtectPublicHealth #StopTheChants!
+Reference 8: Actually, vaccines have historically played a significant role in reducing or eliminating the spread of diseases and improving public health. It is ignorant to dismiss the potential positive impacts of widespread vaccination.
+---
+Prediction 9: While it's true that some individuals may have concerns or questions about the effectiveness of vaccines, there are numerous studies and research conducted by reputable health organizations such as CDC, WHO, etc. which suggest that vaccines significantly reduce severe illness and death from COVID-19. Additionally, getting vaccinated not only protects oneself but also helps prevent overwhelming healthcare systems during outbreaks like this pandemic. It's important to trust scientific data and expert advice rather than relying solely on anecdotal experiences. Waiting too long before receiving the vaccine could
+Reference 9: While it is frustrating that the situation with COVID-19 seems to be constantly changing, it is important to remember that vaccines are not a cure-all and it takes time for their effectiveness to be fully understood. Additionally, just because there are inconsistencies and challenges with vaccination efforts in one country, such as India, does not mean that individuals in other countries should stop following public health guidelines and precautions. It is crucial to continue to prioritize safety and follow recommendations from experts to prevent further spread of the virus.
+---
+Prediction 10: While it may be true that the efficacy rate of the COVID-19 vaccine is high, there have been cases where individuals who were previously able to spread the virus without being vaccinated still contracted or transmitted the disease. Vaccination does not completely eliminate all risks associated with a potentially deadly virus like COVID-19. Additionally, vaccination helps prevent overwhelming healthcare systems during outbreaks, ultimately saving lives and reducing overall morbidity rates. It's important to consider both individual actions and collective efforts when evaluating public health strategies. #
+Reference 10: While the vaccine may have a high efficacy and some decrease in transmission, it is still important to continue following public health guidelines and precautionary measures. Just because someone is vaccinated does not mean they are completely immune or unable to spread the virus. It is important to consider the health and safety of others in addition to personal risk tolerance.
+---
+Prediction 11: While there may be valid concerns regarding the approval process of certain vaccines, it is important to recognize that extensive research and clinical trials have been conducted on these products. The risks associated with contracting COVID-19 far outweigh any potential benefits from receiving the vaccine. Additionally, legal protections in place such as liability insurance coverages ensure that individuals receive compensation for medical expenses incurred due to their illness, regardless of whether they ultimately recover from it. Ultimately, getting vaccinated helps protect not only yourself, but also others around you
+Reference 11: Counter argument: While there may be risks associated with taking the vaccine, it is important to consider the potential benefits of reducing the spread of Covid-19 and ultimately saving lives. The vaccine has gone through rigorous testing and approval processes to ensure its safety and effectiveness. Additionally, holding companies accountable for any negative side effects could deter them from developing life-saving vaccines in the future.
+---
+Prediction 12: While there may be valid concerns with vaccination rates, blaming individuals for not getting vaccinated can create division within communities. It is important to approach this issue as a collective responsibility rather than assigning individual guilt. Governments have a role in promoting public health measures such as vaccinations, so focusing solely on government accountability could lead to missed opportunities for improvement. It is also crucial to consider that vaccines go through rigorous testing and approval processes before being distributed nationwide. Without widespread acceptance and distribution, their effectiveness might be diminished or unavailable to
+Reference 12: While it is important to understand the reasons why some individuals may be hesitant to get the vaccine, ultimately individual choice plays a role in public health outcomes. Blaming the government for individuals choosing not to get vaccinated overlooks personal responsibility and the impact of misinformation or personal beliefs on vaccination rates.
+---
+Prediction 13: While it is true that some COVID-19 vaccines, including those based on mRNA technology, may have undergone less extensive testing compared to traditional vaccines, they still go through rigorous clinical trials before being distributed. Additionally, all vaccines undergo strict safety measures and regulatory approval processes prior to being released into the public domain. It is important to consider that the benefits of getting vaccinated far outweigh potential risks associated with certain components found in vaccines. Vaccines help protect vulnerable populations from deadly diseases and contribute significantly to overall population health
+Reference 13: While it is true that the Oxford vaccine uses more traditional technology, mRNA vaccines have actually undergone rigorous testing and have been shown to be safe and effective in clinical trials. It is important to base vaccination decisions on scientific evidence rather than personal fears or preferences. By choosing not to get vaccinated, you are not only putting yourself at risk, but also potentially spreading the virus to others and hindering efforts to control the pandemic.
+---
+Prediction 14: While it's important to be critical of information circulating on social media, dismissing legitimate concerns and spreading misinformation only fuels further confusion. It's crucial to fact-check before jumping to conclusions or making baseless accusations without concrete evidence. Additionally, ignoring potential dangers associated with vaccinations could put vulnerable populations at risk and undermine public health efforts. It's essential to rely on credible sources and expert advice when addressing these topics. Blaming all negative effects on individuals solely because they choose not to get vaccinated overlooks individual autonomy and
+Reference 14: This tweet promotes a dangerous conspiracy theory with no evidence to support it. The idea that the COVID-19 pandemic was intentionally planned to destroy Western economies and implement police states is not only unfounded but also harmful misinformation. It is important to rely on credible sources and scientific evidence when discussing public health crises.
+---
+Prediction 15: While it may seem concerning about potential long-term effects from COVID-19, scientific research has shown that most individuals who contract the virus experience mild symptoms. Additionally, vaccination can help prevent severe illness or hospitalization, ultimately protecting both individual health and community safety. It is important to consider the greater good of public health over personal concerns regarding vaccine side effects. National biases against certain types of vaccinations should be addressed with evidence-based information rather than fear-mongering theories. Ultimately, prioritizing collective well-being through
+Reference 15: It is inaccurate and irresponsible to label a potential vaccine as a Democrat conspiracy based on unfounded claims. The development of a vaccine is based on scientific research and testing, not political affiliations. Suggesting otherwise only fuels misinformation and undermines the efforts of healthcare professionals working to combat the virus.
+---
+Prediction 16: While it is concerning to hear about an individual experiencing a serious allergic reaction following vaccination, it is important to consider that millions of doses have been administered worldwide without any major reports of similar incidents. Vaccines go through rigorous testing processes before being approved by regulatory agencies, so it is crucial not to jump to conclusions based on one isolated incident. Public health measures such as monitoring for any signs of adverse reactions are also essential in preventing further complications from COVID-19. Ultimately, the benefits of widespread vaccination in protecting
+Reference 16: While it is concerning that a health worker in Alaska had a serious allergic reaction to the Pfizer vaccine, it is important to remember that allergic reactions to vaccines are extremely rare. The benefits of the vaccine, which can protect individuals from a potentially deadly virus, far outweigh the risks of a reaction. It is crucial to continue monitoring and investigating any potential safety implications, but this isolated incident should not deter people from getting vaccinated.
+---
+Prediction 17: While it's tragic that this individual lost their life following receiving the vaccine, it's important to consider that correlation does not equal causation. Just because someone has experienced negative consequences from a particular medication or procedure doesn't mean all individuals will have similar outcomes. Vaccination decisions should be made based on scientific evidence rather than anecdotal horror stories alone. Additionally, while there may be rare cases of severe allergic reactions, the benefits of widespread vaccination outweigh the risks. It's crucial to weigh both sides before dismissing
+Reference 17: It is tragic that this father lost his son after getting vaccinated, but it is important to remember that the overwhelming majority of people who receive the Pfizer vaccine do not experience severe side effects. The benefits of vaccination in protecting against COVID-19 far outweigh the risks, and incidents like this are extremely rare. It is crucial to trust in the scientific consensus and data supporting the safety and efficacy of these vaccines.
+---
+Prediction 18: While it's understandable that you're concerned about potential side effects from COVID-19, it's important to remember that the benefits of getting vaccinated far outweigh the risks. Vaccines have been proven to be safe and effective in preventing severe illness and death from COVID-19. It's crucial to weigh the pros and cons before making a decision on whether or not to get vaccinated. Additionally, many experts recommend waiting until after vaccination trials are completed rather than rushing into decisions based solely on concerns about short-term side
+Reference 18: It's important to consider the fact that the long-term effects of COVID-19 are still largely unknown, and the risks of contracting the virus could potentially be more harmful than any potential side effects of the vaccine.
+---
+Prediction 19: It is important to consider that correlation does not always equal causation. Just because some individuals may experience neurological or other complications after receiving certain vaccinations, it doesn't mean those specific vaccines are causing these problems. It's also worth noting that millions of doses of various vaccines have been administered without any reported severe side effects, so the benefits of vaccination far outweigh the risks. Additionally, it's crucial to consult reputable sources and healthcare professionals before making assumptions about the safety of vaccines based on isolated incidents. Vaccines
+Reference 19: While there may be cases of adverse reactions to vaccines, the vast majority of people who receive vaccines do not experience any negative effects. The benefits of vaccinations far outweigh the risks, as they help protect individuals and communities from serious and potentially deadly diseases. It is important to consider the overall public health impact of vaccines, rather than focusing solely on isolated incidents of adverse reactions.
+---
+Prediction 20: While it's important to consider all risks, including those related to driving cars or contracting diseases like cancer, it's also crucial to acknowledge the benefits of vaccination. Vaccines have been proven to be safe and effective in preventing deadly illnesses and protecting individuals from certain health threats. It's essential to weigh the pros and cons before dismissing the importance of vaccinations altogether. Additionally, comparing risks between different aspects of life can help create a more balanced perspective on public health measures. By prioritizing overall safety and well-being
+Reference 20: While it is true that everyone is at risk of dying in a car crash or getting cancer, those are risks that individuals have some control over through measures such as wearing a seatbelt or maintaining a healthy lifestyle. The risk of death from a vaccine-preventable disease can be significantly reduced by getting vaccinated, making it a more preventable and controllable risk compared to car accidents or cancer.
+---
+Prediction 21: While it's important to consider all aspects when evaluating the success of a vaccine, it's also crucial not to discount entirely any potential benefits or breakthroughs. Just because one vaccine may have lower efficacy doesn't mean another won't be effective against COVID-19. Additionally, different countries having varying levels of rejection can make it difficult to generalize the results across entire regions without more comprehensive data on individual reactions to each specific vaccine. It's essential to weigh both perspectives before making assumptions about vaccination efficacy based solely on
+Reference 21: While Sinovac may have lower efficacy rates compared to other vaccines, it is still approved by several countries and provides some level of protection against COVID-19. Additionally, efficacy rates can vary depending on factors like age and underlying health conditions, so it is important to consider the overall benefits and risks of each vaccine option.
+---
+Prediction 22: While it's true that AstraZeneca has undergone rigorous testing, waiting until after they have been approved could still pose risks. It takes time to gather all necessary data before a vaccine is fully proven safe for use in large populations. Additionally, advancements in medical science often lead to quicker results than traditional testing methods due to advances in biotechnology and computational power. The urgency of the situation may drive innovation towards faster development processes, ultimately leading to better safety measures being put into place sooner rather than later.
+Reference 22: While it is true that thorough testing is important for ensuring the safety of a vaccine, the urgency of the current global pandemic necessitates expedited processes. The FDA and other regulatory bodies have established strict protocols for emergency use authorization, allowing for a vaccine to be deemed safe and effective even if it has not undergone years of testing. Additionally, advancements in technology and research have enabled scientists to monitor vaccine safety and efficacy more efficiently than ever before. Ultimately, the risk of not having a vaccine far outweighs the potential risks associated with expediting the approval process.
+---
+Prediction 23: While it is important to consider all information when discussing the efficacy of vaccines, it is crucial not to spread misinformation. The development process involves rigorous testing and monitoring before being approved by regulatory bodies such as the FDA. It is essential to trust in the expertise of scientists and healthcare professionals who have dedicated themselves to ensuring public health during this global pandemic. Calling someone an "asshat" without providing concrete evidence undermines constructive dialogue about serious issues like vaccination. #VaccinesSaveLives.
+Reference 23: Counter argument: It is unfair to call the Moderna president an "asshat" just because a booster shot may be necessary to combat new variants. Vaccines often need to be adjusted to address changing virus strains, and it is responsible for companies to be proactive in researching and providing solutions.
+---
+Prediction 24: While it is important to consider any potential risks associated with vaccinations, dismissing them as "deformative" overlooks the crucial role they play in protecting public health. Vaccines have been proven safe and effective in preventing deadly diseases that would otherwise spread uncontrollably. It's essential to trust scientific research and prioritize individual well-being over fear-mongering narratives like this one. Additionally, comparing oneself to others who may not receive vaccination but are still at risk of contracting and spreading disease shows a lack of
+Reference 24: While the tweet raises concerns about potential dangers of vaccines, it is important to consider the overwhelming scientific consensus that vaccines are safe and effective at preventing the spread of diseases. Fear-mongering about vaccines only serves to perpetuate misinformation and put public health at risk.
+---
+Prediction 25: While correlation does not necessarily equal causation, it is important to consider other factors in determining whether or not a person who has passed away after receiving the COVID-19 vaccine should be attributed as being directly responsible. Additionally, monitoring for any potential negative consequences from vaccinations can help prevent future deaths by identifying those at risk before they have severe health complications. It is crucial to weigh all available information when evaluating these claims. #VaccinationSafetyFirst
+Reference 25: Just because two things happen around the same time does not mean they are causally linked. It is important to rely on scientific evidence and data when making assumptions about the relationship between Covid-19 and vaccinations.
+---
+Prediction 26: It's important to consider other potential explanations for Mr. Trump's promotion of vaccines, such as his belief in their effectiveness or dedication to public health initiatives. Making assumptions about someone based solely on one action without evidence can be misleading and unfair. It would be more productive to analyze all available information before jumping to conclusions about a person's beliefs or actions. Additionally, it's crucial to trust science and experts when discussing vaccination decisions rather than relying on baseless accusations. Trusting scientific research will ultimately help protect
+Reference 26: It is illogical to equate promoting the vaccine with being an agent of the Beast. Promoting public health and safety should not be demonized or politicized.
+---
+Prediction 27: Actually, it's important to fact-check information before spreading misinformation. Vaccines are developed based on scientific research and testing, not by using human aborted fetal tissue or altering DNA. Additionally, the use of chimpanzee-derived viruses like those used in some COVID-19 vaccines has been thoroughly reviewed and approved by health authorities worldwide. It's crucial to trust the expertise of scientists and healthcare professionals when discussing vaccine safety and efficacy. Dismissing potential risks without evidence only serves to spread fear and confusion. #Vacc
+Reference 27: Actually, vaccines do not contain aborted baby cells. The use of cell cultures in vaccine production is a common and safe practice that has been approved by regulatory bodies. Additionally, vaccines do not change a person's DNA as they work by stimulating the immune system to create antibodies. It is important to fact-check before spreading misinformation about vaccines.
+---
+Prediction 28: Actually, while it's true that Moderna developed their COVID-19 vaccine in collaboration with other organizations and researchers from around the world, they were able to obtain funding and resources through government programs such as Operation Warp Speed. This indicates that there was support behind the development of the vaccine by those who are directly involved in its creation. It doesn't necessarily mean that the CDC or FDA approved every aspect of the process, but rather that they played an important role in overseeing the entire journey towards getting vaccines into
+Reference 28: Actually, Moderna is a biotechnology company that developed the vaccine with funding from the NIH and NIAID. It is a collaborative effort between private industry and government agencies.
+---
+Prediction 29: While it is understandable that some individuals may have concerns about being added to a database tracking vaccine injuries, it is important to consider the benefits of having access to this information. By monitoring and reporting any adverse reactions or deaths after vaccination, healthcare providers can identify patterns and make informed decisions about which vaccines are safe to use in the long run. Additionally, transparency around safety measures allows people to weigh their own risk tolerance when deciding whether or not to receive a particular vaccine. The government's decision to close the database
+Reference 29: Just because the federal government has shut down a system tracking vaccine injury and death does not necessarily mean they are hiding information or trying to discourage people from getting vaccinated. It could be for a variety of reasons such as updating the system or transferring data to a more efficient platform. It is important to consider all possibilities before jumping to conclusions.
+---
+Prediction 30: While it is tragic that a volunteer in the COVID-19 vaccination trial died from the vaccine, it's important to remember that these types of cases are extremely rare. The benefits of getting vaccinated far outweigh the risks, as the chances of experiencing severe complications or death from contracting COVID-19 still remain high compared to those who receive the vaccine without any protection. It's crucial to consider the overall public health impact rather than focusing solely on individual incidents. Additionally, ongoing testing and monitoring will help ensure the safety
+Reference 30: While it is unfortunate that a volunteer in the COVID vaccine trial has died, it is important to remember that adverse reactions can occur with any medication or vaccine. The fact that testing is continuing shows that thorough safety protocols are in place to monitor and assess any potential risks. It is crucial to continue with vaccine trials in order to ensure the safety and efficacy of a potential vaccine for the greater population.
+---
+Prediction 31: While it is true that some vaccine manufacturers in India, such as Zydus Cadilla, have been granted indemnification against any negative claims related to their products, this does not necessarily mean that they completely eliminate or avoid liability when there are reported side effects. Additionally, extensive testing and regulatory processes must still be followed before a vaccine can be approved for use, regardless of manufacturer protections. It is important to consider both sides of the equation before dismissing these companies' involvement entirely based on indemnification alone.
+Reference 31: While it is important to protect vaccine manufacturers from potential liabilities, it is also crucial to ensure that individuals who may experience adverse effects from the vaccines are properly compensated and taken care of. Holding manufacturers accountable for any side effects can help ensure that they prioritize safety and effectiveness in their product development.
+---
+Prediction 32: While there may be some limitations to how well certain individuals respond to specific vaccines, such as the Pfizer vaccine in terms of their immune system's ability to mount an effective response against disease-causing viruses. Additionally, relying solely on anecdotal information about efficacy from individual experiences can be unreliable when compared to rigorous scientific research conducted by experts in the field. Additionally, while masks are important in preventing the spread of infectious diseases, they do not provide immunity once you have contracted COVID-19 or other similar illnesses.
+Reference 32: While it is true that Pfizer's vaccine may not provide a mucosal response like some other candidates, it is still important to consider the overall effectiveness and safety of the vaccine. Pfizer's vaccine has been rigorously tested and shown to be highly effective in preventing severe illness and reducing transmission of COVID-19. Additionally, wearing a mask and practicing other preventive measures can further reduce the risk of infection, making the Pfizer vaccine a valuable tool in combating the pandemic.
+---
+Prediction 33: While it may be important to consider environmental impact, it is crucial not to dismiss the potential benefits of a vaccine against COVID-19. The virus has already caused widespread illness and death worldwide, so any measures that could potentially help slow its spread should be explored without dismissing their effectiveness. Shark-derived products have been used in various industries before successfully producing safe and effective products, demonstrating that such substances can still play valuable roles beyond shark research. It's essential to weigh all factors when making decisions regarding animal use in
+Reference 33: Using sharks in medical research, including for the creation of vaccines, can help save human lives. It is important to prioritize finding a solution to the global pandemic over concerns about animal welfare.
+---
+Prediction 34: While it is important to consider all possible outcomes, including complications from vaccination, it's crucial not to discount any cases of illness caused by a vaccine. Vaccines are designed to protect against potentially deadly diseases and prevent overwhelming healthcare systems during outbreaks like COVID-19. By acknowledging both positive and negative outcomes, we can better understand the overall impact of vaccinations on public health. Additionally, thorough monitoring and reporting mechanisms in place should help identify and address any rare but serious issues related to vaccines. It's essential to
+Reference 34: It is important to remember that the vast majority of people who receive the Covid vaccine do not experience severe complications or death. The benefits of the vaccine in preventing illness and stopping the spread of the virus far outweigh the risks. Additionally, medical professionals carefully track any adverse reactions to vaccines to ensure safety. It is crucial to trust in the science behind vaccines and prioritize public health.
+---
+Prediction 35: While it is true that some individuals may experience mild side effects after receiving a vaccination, such as fatigue or soreness at the injection site, these risks are typically minimal compared to the potentially life-threatening consequences of contracting a deadly viral infection. Additionally, vaccines have been proven to be highly effective in preventing severe illness, hospitalization, and death from infectious diseases. It is important to consider the greater good and public health benefits of vaccinations when weighing the potential risks. #TrustInVaccines #ProtectPublic
+Reference 35: This tweet is spreading misinformation and fearmongering. Vaccines have been proven to be effective in preventing the spread and severity of viruses, including COVID-19. It is important to trust in science and listen to credible sources for information on vaccines.
+---
+Prediction 36: Actually, while it is true that no one has contracted smallpox since the development of vaccines, getting vaccinated still helps protect not only yourself but also those around you who may be more vulnerable to illness. Vaccines have been proven to significantly reduce the spread of many dangerous diseases and help keep communities safe. It's important to consider the broader community impact rather than just individual protection. #GetVaccinatedForTheGoodOfAll!
+Reference 36: Actually, the reason we no longer see smallpox in the environment is precisely because of widespread vaccination efforts. Without vaccines, the disease would still be a major threat to public health. It's important to continue vaccinating to prevent the resurgence of deadly diseases like smallpox.
+---
+Prediction 37: While it's true that some individuals may have died from other health conditions, it doesn't necessarily mean that their deaths were directly caused by receiving the specific COVID-19 vaccine. Additionally, while there are concerns about rare blood clot occurrences after getting vaccinated, these cases are extremely rare compared to the benefits of vaccination in preventing severe illness or death from COVID-19. It's important to remember that vaccines go through rigorous testing and monitoring before being approved for use. #VaccinationPrecautions #Safety
+Reference 37: Even if the individuals had underlying health issues, it is important to recognize that contracting COVID-19 likely exacerbated their conditions and ultimately led to their deaths. Downplaying the significance of COVID-19 in these cases undermines the seriousness of the virus and the need for continued caution and preventative measures. Additionally, it is important to consider that correlation does not always equal causation when it comes to vaccine side effects, and the benefits of vaccination often outweigh the potential risks.
+---
+Prediction 38: It is important to recognize that while it may seem unfair or hypocritical, the development of vaccines by Pfizer and BioNTech was a collaborative effort between scientists from multiple countries working together with government agencies. The goal was not solely driven by profits but also by ensuring public health during a global pandemic. It is crucial to acknowledge the benefits of these vaccines in preventing illness and saving lives. Blaming one company without evidence only serves to spread misinformation and hinder progress towards ending the virus quickly. Let's focus on
+Reference 38: It's important to recognize the significant scientific progress and collaboration that led to the development of the Pfizer and BioNTech vaccine. Dismissing their achievements as merely a "gander" undermines the hard work and dedication of countless researchers and scientists.
+---
+Prediction 39: Just because something is labeled as a "vaccine" does not mean it has been proven to be safe and effective. Vaccines undergo rigorous testing before being approved by health authorities, so labeling them simply as mRNA could be misleading. Additionally, comparing moderna's technology to animal models like mice may oversimplify complex scientific advancements in medicine. The focus should remain on ensuring public safety during this global pandemic rather than perpetuating misconceptions about medical treatments. #VaccinationSafetyMatters
+Reference 39: Actually, mRNA vaccines have proven to be highly effective and safe in preventing severe illness and death from COVID-19. It is based on cutting-edge technology and has undergone rigorous testing before being approved for emergency use. It is not accurate to dismiss it as just "more humanize mice."
+---
+Prediction 40: It is important to prioritize public health and safety when considering vaccinations. By refusing to get vaccinated, you are putting yourself at risk of contracting and spreading harmful diseases to those who have chosen to receive the vaccine. Threatening individuals with violence does not address any underlying issues or promote a safe environment for everyone. It is crucial to trust in scientific research and guidance from healthcare professionals rather than resorting to extreme measures like death row rhetoric. The well-being of our community must come first before making decisions about personal freedoms
+Reference 40: Taking the vaccine is a personal choice, but advocating for the punishment of those who choose not to take it goes against individual freedoms and medical autonomy. Instead of seeking extreme penalties, efforts should be focused on educating and encouraging vaccination.
+---
+Prediction 41: It's important to consider that pharmaceutical companies, like Pfizer, have a responsibility to ensure their products are safe for public consumption. The safety and efficacy of any medication must be rigorously tested before it reaches the market. Additionally, governments and healthcare professionals also play a crucial role in monitoring and assessing all aspects of vaccine development and distribution. Trusting scientific research and expert opinions can help alleviate concerns about vaccine safety. It's essential not to dismiss information solely based on fear or misinformation. #TrustTheScience.
+Reference 41: It is not uncommon for pharmaceutical companies to conduct rigorous testing and research before releasing a vaccine to the public. Additionally, government regulatory bodies also conduct their own assessments to ensure the safety and efficacy of the vaccine. It is likely that Pfizer's vaccine has been thoroughly vetted by multiple sources before being deemed safe for distribution.
+---
+Prediction 42: While it is true that some prominent figures in the scientific community have received significant funding from organizations like the Bill & Melinda Gates Foundation, this does not necessarily mean there are any hidden motives. The development of new vaccines should be evaluated on their efficacy and safety rather than being tied to specific political agendas or profits. Additionally, rigorous testing protocols must still apply before a vaccine can be deemed safe for public use, regardless of its potential benefits to certain individuals or groups. Conspiracy theories surrounding vaccinations only serve to create
+Reference 42: While it is true that Bill Gates has provided funding to the Oxford lab, it does not mean that the vaccine being developed is part of a sinister plot to depopulate the world. The vaccine development process is rigorous and involves many scientific experts, not just Bill Gates. Additionally, vaccines go through strict testing and approval processes to ensure their safety and effectiveness before being distributed to the public. The Oxford vaccine is a result of hard work and collaboration from a team of dedicated researchers, not a covert plan for population control.
+---
+Prediction 43: It's important to remember that no medical treatment, including vaccines, is completely risk-free. The development process involves extensive research and rigorous testing to ensure safety and efficacy before being distributed to the public. While there may have been delays in the approval timeline compared to traditional pharmaceuticals, the benefits of vaccination far outweigh any potential risks associated with COVID-19. Vaccines can help prevent severe illness, hospitalization, and even death from the virus itself, ultimately saving lives and protecting vulnerable populations. It's crucial
+Reference 43: While it is true that the COVID-19 vaccine was developed much faster than previous vaccines, it's important to consider the urgency of the situation. The global pandemic has caused immense suffering and loss of life, so a rapid response was necessary. Additionally, the vaccine underwent rigorous testing and clinical trials to ensure its safety and efficacy. Taking the vaccine can significantly reduce the spread of the virus and ultimately save lives.
+---
+Prediction 44: It is important to remember that while rare cases of severe allergic reactions or anaphylaxis can occur following vaccination, the vast majority of people who receive the AstraZeneca vaccine do not experience any serious complications. The benefits of vaccinating against COVID-19 far outweigh the risks, as preventing the spread of the virus helps protect vulnerable populations and ultimately save lives. It is crucial to consider the overall public health implications rather than focusing solely on individual isolated incidents like this one. Vaccination should be viewed
+Reference 44: It is important to remember that the occurrence of side effects, such as blisters, after receiving a vaccine is extremely rare and should not deter individuals from getting vaccinated. The benefits of the vaccine in preventing the spread of COVID-19 far outweigh the risks of potential side effects.
+---
+Prediction 45: While lymphadenopathy may be a rare complication of vaccination, it does highlight the importance of monitoring for any potential side effects. It's crucial to weigh the benefits of vaccination against the risks of potentially severe allergic reactions or complications from vaccine ingredients. Additionally, reporting cases like those you mentioned can help inform healthcare professionals and researchers in their efforts to better understand and address any unusual occurrences related to vaccinations. It's important to consider all aspects when evaluating the safety and efficacy of vaccines. #VaccinesSaveL
+Reference 45: While it is important to acknowledge and monitor potential side effects of COVID vaccines, it is essential to put these occurrences into perspective. The benefits of vaccination, such as preventing severe illness and death from COVID-19, far outweigh the potential risks of rare side effects. Additionally, it is important to consider that correlation does not imply causation and further investigation is needed to determine the cause of any adverse events following vaccination.
+---
+Prediction 46: While it may seem like the current administration's actions are concerning, it is important to consider that they have been working tirelessly behind the scenes to address various public health crises. Passing a recovery bill and promoting vaccines should not necessarily mean constantly scaring individuals into following orders; rather, these measures could help prevent future pandemics and save lives by ensuring adequate funding and resources are allocated towards healthcare initiatives. It is crucial to prioritize collective well-being over individual freedom when dealing with complex issues such as pandemic response. Ultimately
+Reference 46: While it is understandable to be frustrated with changing rules and restrictions, it is important to prioritize public health and safety during a global pandemic. The administration's efforts to pass a recovery bill and promote vaccination numbers show a commitment to combating the virus and ultimately allowing for more freedom in the long run. It is necessary to adapt to new information and guidelines in order to protect the well-being of all citizens.
+---
+Prediction 47: While some may argue that forcing vaccines is a violation of individual autonomy, vaccine mandates have been implemented to protect public health and prevent the spread of deadly diseases. It's important to weigh the potential benefits of widespread vaccination against any concerns about government control or infringement on personal freedoms. Ultimately, making decisions based on science and evidence rather than fear and misinformation can help save lives and prevent unnecessary suffering. Mandatory vaccinations are not inherently oppressive; they serve as an essential tool in controlling outbreaks and protecting vulnerable populations. Public health
+Reference 47: Counter argument: The development and distribution of vaccines for Covid-19 are essential in order to protect public health and prevent further spread of the virus. While there may be concerns about individual liberties, widespread vaccination is crucial in order to achieve herd immunity and ultimately save lives.
+---
+Prediction 48: While it is tragic that a healthcare worker passed away shortly after receiving the Pfizer vaccine, it is important to remember that thousands of people have received the vaccine without any severe complications. The benefits of vaccination in preventing serious illness and death from COVID-19 far outweigh the risks of rare side effects or adverse reactions. It's crucial to consider the overall public health impact rather than focusing solely on individual cases. Vaccines go through rigorous testing and regulatory approval processes before being distributed widely to ensure their safety and effectiveness.
+Reference 48: While any death following a vaccination is concerning, it is important to remember that millions of people have safely received the Pfizer vaccine with no severe side effects. It is crucial to wait for a thorough investigation and analysis of the nurse's death before jumping to conclusions about the safety of the vaccine.
+---
+Prediction 49: While it's important to critically evaluate information, dismissing a potentially life-saving treatment like the COVID-19 vaccine based solely on misinformation about its effectiveness or safety raises serious concerns. It is crucial to rely on scientific evidence rather than spreading unfounded claims that could have negative consequences for public health. Vaccines go through rigorous testing processes before they can be approved by regulatory agencies, and their benefits far outweigh any risks. Ignoring these facts puts individuals at risk of contracting the virus, especially those who may already be
+Reference 49: While it is true that the COVID virus is small, the mask is not meant to completely block the virus, but rather reduce the spread of respiratory droplets that may contain the virus. Wearing a mask, along with practicing social distancing and proper hygiene, can still help prevent the spread of COVID-19. Additionally, the claims about the Moderna vaccine causing Bell's palsy, sterilization, and immune system shutdown are not supported by scientific evidence and have been debunked by reputable health organizations. It is important to fact-check information before spreading misinformation.
+---
+Prediction 50: Actually, there have been numerous studies and trials conducted on various vaccines around the world. Vaccines go through rigorous testing before being approved by health authorities, so it's important to trust in their proven effectiveness. Without widespread vaccination efforts, we are at risk of a highly contagious virus spreading quickly throughout society again. It's crucial to listen to experts like scientists and medical professionals who emphasize the importance of vaccination in controlling diseases effectively. #VaccinationIsKey #PublicHealthMatters
+Reference 50: While the vaccine may not be a cure, it is an important tool in preventing the spread of the virus and reducing the severity of symptoms for those who do contract it. It plays a crucial role in building herd immunity and protecting vulnerable populations.
+---
+Rouge 1 Mean:  37.450037148800384
+Rouge 2 Mean:  10.715185093653771
+Rouge L Mean:  22.64188508615232
+Rouge Lsum Mean:  22.655634792545868
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59/config.json
+Model config RobertaConfig {
+  "_name_or_path": "roberta-large",
+  "architectures": [
+    "RobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "roberta",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.47.0.dev0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 50265
+}
+
+loading file vocab.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59/vocab.json
+loading file merges.txt from cache at /home/sohampoddar/HDD2/hfcache/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59/merges.txt
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59/tokenizer_config.json
+loading file tokenizer.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59/tokenizer.json
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59/config.json
+Model config RobertaConfig {
+  "_name_or_path": "roberta-large",
+  "architectures": [
+    "RobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "roberta",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.47.0.dev0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 50265
+}
+
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59/config.json
+Model config RobertaConfig {
+  "_name_or_path": "roberta-large",
+  "architectures": [
+    "RobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "roberta",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.47.0.dev0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 50265
+}
+
+loading weights file model.safetensors from cache at /home/sohampoddar/HDD2/hfcache/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59/model.safetensors
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaModel: ['lm_head.bias', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+calculating scores...
+computing bert embedding.
+100%|██████████| 2/2 [00:00<00:00,  4.44it/s]
+computing greedy matching.
+100%|██████████| 1/1 [00:00<00:00, 46.98it/s]
+done in 0.48 seconds, 103.45 sentences/sec
+BERTScore Precision: 0.8711479306221008
+BERTScore Recall: 0.8902929425239563
+BERTScore F1: 0.8805829882621765

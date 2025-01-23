@@ -1,0 +1,207 @@
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/home/sohampoddar/anaconda3/envs/dl/lib/python3.9/site-packages/torch/utils/checkpoint.py:464: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.4 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+[codecarbon INFO @ 02:19:54] Energy consumed for RAM : 0.000196 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:19:54] Energy consumed for all GPUs : 0.001996 kWh. Total GPU Power : 478.7596644709896 W
+[codecarbon INFO @ 02:19:54] Energy consumed for all CPUs : 0.000294 kWh. Total CPU Power : 70.48297322768089 W
+[codecarbon INFO @ 02:19:54] 0.002487 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:20:09] Energy consumed for RAM : 0.000392 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:20:09] Energy consumed for all GPUs : 0.004103 kWh. Total GPU Power : 505.95017853762295 W
+[codecarbon INFO @ 02:20:09] Energy consumed for all CPUs : 0.000584 kWh. Total CPU Power : 69.67696935027378 W
+[codecarbon INFO @ 02:20:09] 0.005080 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:20:24] Energy consumed for RAM : 0.000588 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:20:24] Energy consumed for all GPUs : 0.006170 kWh. Total GPU Power : 496.4736789112026 W
+[codecarbon INFO @ 02:20:24] Energy consumed for all CPUs : 0.000870 kWh. Total CPU Power : 68.61391000333211 W
+[codecarbon INFO @ 02:20:24] 0.007629 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:20:39] Energy consumed for RAM : 0.000784 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:20:39] Energy consumed for all GPUs : 0.008165 kWh. Total GPU Power : 479.39323665641945 W
+[codecarbon INFO @ 02:20:39] Energy consumed for all CPUs : 0.001159 kWh. Total CPU Power : 69.25254599035895 W
+[codecarbon INFO @ 02:20:39] 0.010108 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:20:54] Energy consumed for RAM : 0.000980 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:20:54] Energy consumed for all GPUs : 0.010149 kWh. Total GPU Power : 476.37996489025295 W
+[codecarbon INFO @ 02:20:54] Energy consumed for all CPUs : 0.001447 kWh. Total CPU Power : 69.22505372106491 W
+[codecarbon INFO @ 02:20:54] 0.012576 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:21:09] Energy consumed for RAM : 0.001176 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:21:09] Energy consumed for all GPUs : 0.012053 kWh. Total GPU Power : 457.10167092520305 W
+[codecarbon INFO @ 02:21:09] Energy consumed for all CPUs : 0.001733 kWh. Total CPU Power : 68.69747621409249 W
+[codecarbon INFO @ 02:21:09] 0.014962 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:21:24] Energy consumed for RAM : 0.001372 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:21:24] Energy consumed for all GPUs : 0.014065 kWh. Total GPU Power : 483.2915532825068 W
+[codecarbon INFO @ 02:21:24] Energy consumed for all CPUs : 0.002022 kWh. Total CPU Power : 69.27847276950317 W
+[codecarbon INFO @ 02:21:24] 0.017459 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:21:39] Energy consumed for RAM : 0.001568 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:21:39] Energy consumed for all GPUs : 0.016052 kWh. Total GPU Power : 477.3569428865905 W
+[codecarbon INFO @ 02:21:39] Energy consumed for all CPUs : 0.002310 kWh. Total CPU Power : 69.10582853635529 W
+[codecarbon INFO @ 02:21:39] 0.019930 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:21:54] Energy consumed for RAM : 0.001764 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:21:54] Energy consumed for all GPUs : 0.018058 kWh. Total GPU Power : 481.66713192546524 W
+[codecarbon INFO @ 02:21:54] Energy consumed for all CPUs : 0.002613 kWh. Total CPU Power : 72.92561391915868 W
+[codecarbon INFO @ 02:21:54] 0.022435 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:22:09] Energy consumed for RAM : 0.001960 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:22:09] Energy consumed for all GPUs : 0.020054 kWh. Total GPU Power : 479.12663342038707 W
+[codecarbon INFO @ 02:22:09] Energy consumed for all CPUs : 0.002901 kWh. Total CPU Power : 69.0787274266849 W
+[codecarbon INFO @ 02:22:09] 0.024915 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:22:24] Energy consumed for RAM : 0.002156 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:22:24] Energy consumed for all GPUs : 0.022030 kWh. Total GPU Power : 474.64502440509324 W
+[codecarbon INFO @ 02:22:24] Energy consumed for all CPUs : 0.003192 kWh. Total CPU Power : 69.77883031833721 W
+[codecarbon INFO @ 02:22:24] 0.027378 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:22:39] Energy consumed for RAM : 0.002352 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:22:39] Energy consumed for all GPUs : 0.024063 kWh. Total GPU Power : 488.05371222599854 W
+[codecarbon INFO @ 02:22:39] Energy consumed for all CPUs : 0.003477 kWh. Total CPU Power : 68.49429522720946 W
+[codecarbon INFO @ 02:22:39] 0.029891 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:22:54] Energy consumed for RAM : 0.002548 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:22:54] Energy consumed for all GPUs : 0.026095 kWh. Total GPU Power : 488.05308279730224 W
+[codecarbon INFO @ 02:22:54] Energy consumed for all CPUs : 0.003771 kWh. Total CPU Power : 70.5501337080025 W
+[codecarbon INFO @ 02:22:54] 0.032414 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:23:09] Energy consumed for RAM : 0.002744 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:23:09] Energy consumed for all GPUs : 0.028104 kWh. Total GPU Power : 482.40054381602744 W
+[codecarbon INFO @ 02:23:09] Energy consumed for all CPUs : 0.004060 kWh. Total CPU Power : 69.2835045776002 W
+[codecarbon INFO @ 02:23:09] 0.034908 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:23:24] Energy consumed for RAM : 0.002940 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:23:24] Energy consumed for all GPUs : 0.030007 kWh. Total GPU Power : 457.3231730629229 W
+[codecarbon INFO @ 02:23:24] Energy consumed for all CPUs : 0.004352 kWh. Total CPU Power : 70.26409728472383 W
+[codecarbon INFO @ 02:23:24] 0.037299 kWh of electricity used since the beginning.
+flash_attention_2
+[codecarbon INFO @ 02:23:39] Energy consumed for RAM : 0.003136 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:23:39] Energy consumed for all GPUs : 0.031902 kWh. Total GPU Power : 454.98149370179686 W
+[codecarbon INFO @ 02:23:39] Energy consumed for all CPUs : 0.004639 kWh. Total CPU Power : 68.76359941410016 W
+[codecarbon INFO @ 02:23:39] 0.039677 kWh of electricity used since the beginning.
+Using GPU: NVIDIA RTX A5000
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/config.json
+Model config LlamaConfig {
+  "_name_or_path": "meta-llama/Llama-3.2-1B-Instruct",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ],
+  "head_dim": 64,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 8192,
+  "max_position_embeddings": 131072,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 16,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": {
+    "factor": 32.0,
+    "high_freq_factor": 4.0,
+    "low_freq_factor": 1.0,
+    "original_max_position_embeddings": 8192,
+    "rope_type": "llama3"
+  },
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": true,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.47.0.dev0",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+CUDA backend validation successful.
+loading weights file model.safetensors from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/model.safetensors
+Instantiating LlamaForCausalLM model under default dtype torch.bfloat16.
+Generate config GenerationConfig {
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ]
+}
+
+target_dtype {target_dtype} is replaced by `CustomDtype.INT4` for 4-bit BnB quantization
+CUDA backend validation successful.
+[codecarbon INFO @ 02:23:54] Energy consumed for RAM : 0.003331 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:23:54] Energy consumed for all GPUs : 0.033787 kWh. Total GPU Power : 452.53795856874444 W
+[codecarbon INFO @ 02:23:54] Energy consumed for all CPUs : 0.004927 kWh. Total CPU Power : 69.25873740084049 W
+[codecarbon INFO @ 02:23:54] 0.042046 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:24:09] Energy consumed for RAM : 0.003527 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:24:09] Energy consumed for all GPUs : 0.035727 kWh. Total GPU Power : 465.9137758338546 W
+[codecarbon INFO @ 02:24:09] Energy consumed for all CPUs : 0.005215 kWh. Total CPU Power : 69.07851751740839 W
+[codecarbon INFO @ 02:24:09] 0.044470 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:24:24] Energy consumed for RAM : 0.003723 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:24:24] Energy consumed for all GPUs : 0.037733 kWh. Total GPU Power : 481.90794666684695 W
+[codecarbon INFO @ 02:24:24] Energy consumed for all CPUs : 0.005503 kWh. Total CPU Power : 69.10896523525486 W
+[codecarbon INFO @ 02:24:24] 0.046960 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:24:39] Energy consumed for RAM : 0.003919 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:24:39] Energy consumed for all GPUs : 0.039762 kWh. Total GPU Power : 487.0708902822318 W
+[codecarbon INFO @ 02:24:39] Energy consumed for all CPUs : 0.005800 kWh. Total CPU Power : 71.13883344771929 W
+[codecarbon INFO @ 02:24:39] 0.049480 kWh of electricity used since the beginning.
+[codecarbon INFO @ 02:24:54] Energy consumed for RAM : 0.004115 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:24:54] Energy consumed for all GPUs : 0.041773 kWh. Total GPU Power : 483.27592018514287 W
+[codecarbon INFO @ 02:24:54] Energy consumed for all CPUs : 0.006088 kWh. Total CPU Power : 69.29477492281026 W
+[codecarbon INFO @ 02:24:54] 0.051977 kWh of electricity used since the beginning.
+flash_attention_2
+Using GPU: NVIDIA RTX A5000
+loading configuration file config.json from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/config.json
+Model config LlamaConfig {
+  "_name_or_path": "meta-llama/Llama-3.2-1B-Instruct",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ],
+  "head_dim": 64,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 8192,
+  "max_position_embeddings": 131072,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 16,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": {
+    "factor": 32.0,
+    "high_freq_factor": 4.0,
+    "low_freq_factor": 1.0,
+    "original_max_position_embeddings": 8192,
+    "rope_type": "llama3"
+  },
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": true,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.47.0.dev0",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+CUDA backend validation successful.
+loading weights file model.safetensors from cache at /home/sohampoddar/HDD2/hfcache/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6/model.safetensors
+Instantiating LlamaForCausalLM model under default dtype torch.bfloat16.
+Generate config GenerationConfig {
+  "bos_token_id": 128000,
+  "eos_token_id": [
+    128001,
+    128008,
+    128009
+  ]
+}
+
+target_dtype {target_dtype} is replaced by `CustomDtype.INT4` for 4-bit BnB quantization
+CUDA backend validation successful.
+[codecarbon INFO @ 02:25:09] Energy consumed for RAM : 0.004311 kWh. RAM Power : 47.068857192993164 W
+[codecarbon INFO @ 02:25:09] Energy consumed for all GPUs : 0.043822 kWh. Total GPU Power : 491.9329615992548 W
+[codecarbon INFO @ 02:25:09] Energy consumed for all CPUs : 0.006378 kWh. Total CPU Power : 69.54258140801932 W
+[codecarbon INFO @ 02:25:09] 0.054511 kWh of electricity used since the beginning.

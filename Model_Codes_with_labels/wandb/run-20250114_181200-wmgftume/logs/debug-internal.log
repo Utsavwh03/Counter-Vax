@@ -1,0 +1,9 @@
+{"time":"2025-01-14T18:12:04.344071566+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-14T18:12:04.344101735+05:30","level":"INFO","msg":"created symlink","path":"/home/antpc/HDD2/sohampoddar/utsav/Model_Codes/wandb/run-20250114_181200-wmgftume/logs/debug-core.log"}
+{"time":"2025-01-14T18:12:04.560456161+05:30","level":"INFO","msg":"created new stream","id":"wmgftume"}
+{"time":"2025-01-14T18:12:04.5605253+05:30","level":"INFO","msg":"stream: started","id":"wmgftume"}
+{"time":"2025-01-14T18:12:04.560557424+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wmgftume"}
+{"time":"2025-01-14T18:12:04.560600403+05:30","level":"INFO","msg":"sender: started","stream_id":"wmgftume"}
+{"time":"2025-01-14T18:12:04.560643963+05:30","level":"INFO","msg":"handler: started","stream_id":"wmgftume"}
+{"time":"2025-01-14T18:12:05.121486003+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-14T19:11:01.207847869+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/utsavdhanuka03-iit-kharagpur/DecoderModels/wmgftume/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:58230->127.0.0.53:53: i/o timeout"}

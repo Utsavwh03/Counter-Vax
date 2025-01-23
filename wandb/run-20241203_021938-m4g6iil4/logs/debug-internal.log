@@ -1,0 +1,23 @@
+{"time":"2024-12-03T02:19:38.679115241+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-03T02:19:38.679144748+05:30","level":"INFO","msg":"created symlink","path":"/home/antpc/HDD2/sohampoddar/utsav/wandb/run-20241203_021938-m4g6iil4/logs/debug-core.log"}
+{"time":"2024-12-03T02:19:38.896118604+05:30","level":"INFO","msg":"created new stream","id":"m4g6iil4"}
+{"time":"2024-12-03T02:19:38.896183965+05:30","level":"INFO","msg":"stream: started","id":"m4g6iil4"}
+{"time":"2024-12-03T02:19:38.896241645+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"m4g6iil4"}
+{"time":"2024-12-03T02:19:38.896259657+05:30","level":"INFO","msg":"sender: started","stream_id":"m4g6iil4"}
+{"time":"2024-12-03T02:19:38.896304402+05:30","level":"INFO","msg":"handler: started","stream_id":"m4g6iil4"}
+{"time":"2024-12-03T02:19:39.558179367+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-03T02:19:43.882755755+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-03T02:23:23.857048295+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-03T02:23:23.899617392+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-03T02:23:36.700907722+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-03T02:23:36.705075532+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-03T02:23:41.982318788+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-03T02:23:46.948556594+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-03T02:24:33.016323611+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-03T02:24:33.059726368+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-03T02:24:38.490654943+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-03T02:24:38.494050232+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-03T02:24:56.901224504+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-03T02:24:56.905195476+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-03T02:25:00.002679123+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-03T02:25:00.568264322+05:30","level":"INFO","msg":"Pausing system monitor"}

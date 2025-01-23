@@ -1,0 +1,40 @@
+{"time":"2024-12-04T00:48:30.00926967+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-04T00:48:30.009297809+05:30","level":"INFO","msg":"created symlink","path":"/home/antpc/HDD2/sohampoddar/utsav/wandb/run-20241204_004829-6elhe46z/logs/debug-core.log"}
+{"time":"2024-12-04T00:48:30.226472967+05:30","level":"INFO","msg":"created new stream","id":"6elhe46z"}
+{"time":"2024-12-04T00:48:30.226535719+05:30","level":"INFO","msg":"stream: started","id":"6elhe46z"}
+{"time":"2024-12-04T00:48:30.226590395+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6elhe46z"}
+{"time":"2024-12-04T00:48:30.22663665+05:30","level":"INFO","msg":"sender: started","stream_id":"6elhe46z"}
+{"time":"2024-12-04T00:48:30.226744235+05:30","level":"INFO","msg":"handler: started","stream_id":"6elhe46z"}
+{"time":"2024-12-04T00:48:30.791979617+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T01:00:36.916790886+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:00:55.261192976+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:17:20.117450946+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:19:44.52263766+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:19:49.16319709+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:21:22.060888951+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:21:24.202963294+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:21:54.35017609+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:21:56.384437154+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:22:31.53737132+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:22:31.542070536+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:22:36.363213818+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:22:36.366182831+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:22:47.217453898+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:22:47.462335835+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:23:00.265318635+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:23:00.268042578+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:23:13.570702097+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:23:21.087619238+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:24:03.613707439+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:24:03.61638456+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:24:16.061497391+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:30:06.267963772+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:30:33.345080122+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:30:34.229135359+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:30:43.842468081+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:30:43.883857734+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:31:06.832733522+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:31:09.07064848+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T01:31:22.763559876+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-04T01:31:33.336768253+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-04T04:11:36.476973457+05:30","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/utsavdhanuka03-iit-kharagpur/huggingface/6elhe46z/file_stream"}

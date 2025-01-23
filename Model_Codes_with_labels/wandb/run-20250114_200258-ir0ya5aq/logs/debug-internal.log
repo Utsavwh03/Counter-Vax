@@ -1,0 +1,8 @@
+{"time":"2025-01-14T20:02:58.594482452+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-14T20:02:58.594518101+05:30","level":"INFO","msg":"created symlink","path":"/home/antpc/HDD2/sohampoddar/utsav/Model_Codes/wandb/run-20250114_200258-ir0ya5aq/logs/debug-core.log"}
+{"time":"2025-01-14T20:02:58.813789441+05:30","level":"INFO","msg":"created new stream","id":"ir0ya5aq"}
+{"time":"2025-01-14T20:02:58.813837404+05:30","level":"INFO","msg":"stream: started","id":"ir0ya5aq"}
+{"time":"2025-01-14T20:02:58.813878179+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ir0ya5aq"}
+{"time":"2025-01-14T20:02:58.813940767+05:30","level":"INFO","msg":"handler: started","stream_id":"ir0ya5aq"}
+{"time":"2025-01-14T20:02:58.813969504+05:30","level":"INFO","msg":"sender: started","stream_id":"ir0ya5aq"}
+{"time":"2025-01-14T20:02:59.435814147+05:30","level":"INFO","msg":"Starting system monitor"}

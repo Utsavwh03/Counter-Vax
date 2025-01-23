@@ -1,0 +1,55 @@
+{
+  "os": "Linux-5.15.0-124-generic-x86_64-with-glibc2.31",
+  "python": "3.9.17",
+  "startedAt": "2024-12-14T16:43:02.576337Z",
+  "program": "/home/sohampoddar/HDD2/utsav/Model_Codes/llama_finetune.ipynb",
+  "email": "utsavdhanuka03@gmail.com",
+  "root": "/home/antpc/HDD2/sohampoddar/utsav/Model_Codes",
+  "host": "raptor",
+  "username": "sohampoddar",
+  "executable": "/home/sohampoddar/anaconda3/envs/dl/bin/python",
+  "cpu_count": 20,
+  "cpu_count_logical": 40,
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "943412031488",
+      "used": "838066765824"
+    }
+  },
+  "memory": {
+    "total": "134772801536"
+  },
+  "cpu": {
+    "count": 20,
+    "countLogical": 40
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.2"
+}
