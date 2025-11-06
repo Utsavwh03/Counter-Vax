@@ -1,0 +1,18 @@
+Model Name : phi-3mini
+Finetuned on Label Aware Prompt Set 
+Evaluated on Label Descriptions from Covid Twitter on 997 test dataset on 100 samples 
+
+======================================================================
+EVALUATION RESULTS
+======================================================================
+ROUGE Scores:
+  ROUGE-1: 32.21
+  ROUGE-2: 7.59
+  ROUGE-L: 16.52
+  ROUGE-Lsum: 17.15
+
+BERTScore:
+  Precision: 0.8540
+  Recall: 0.8699
+  F1: 0.8619
+======================================================================

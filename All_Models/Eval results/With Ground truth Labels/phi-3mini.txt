@@ -1,0 +1,21 @@
+Model Name : phi-3mini
+Finetuned on Label Aware Prompt Set 
+Evaluated on Ground Truth Label Descriptions on 997 test dataset on 100 samples 
+
+
+======================================================================
+EVALUATION RESULTS
+======================================================================
+ROUGE Scores:
+  ROUGE-1: 33.19
+  ROUGE-2: 7.80
+  ROUGE-L: 17.02
+  ROUGE-Lsum: 17.77
+
+BERTScore:
+  Precision: 0.8552
+  Recall: 0.8708
+  F1: 0.8629
+======================================================================
+
+

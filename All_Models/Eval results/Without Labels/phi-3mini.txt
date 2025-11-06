@@ -1,0 +1,18 @@
+Model Name : Phi-3-mini
+Finetuned on Label Aware Prompt Set 
+Evaluated on Without Label Prompts on 997 test dataset on 100 samples 
+
+======================================================================
+EVALUATION RESULTS
+======================================================================
+ROUGE Scores:
+  ROUGE-1: 33.16
+  ROUGE-2: 7.86
+  ROUGE-L: 17.17
+  ROUGE-Lsum: 17.95
+
+BERTScore:
+  Precision: 0.8537
+  Recall: 0.8701
+  F1: 0.8618
+======================================================================

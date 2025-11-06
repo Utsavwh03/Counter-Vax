@@ -1,0 +1,18 @@
+Model Name : google/gemma-2b-it
+Finetuned on Label Aware Prompt Set 
+Evaluated on Ground Truth Label Descriptions on 997 test dataset on 100 samples 
+
+EVALUATION RESULTS
+======================================================================
+ROUGE Scores:
+  ROUGE-1: 51.66
+  ROUGE-2: 20.35
+  ROUGE-L: 28.44
+  ROUGE-Lsum: 32.18
+
+BERTScore:
+  Precision: 0.8803
+  Recall: 0.8901
+  F1: 0.8851
+
+  

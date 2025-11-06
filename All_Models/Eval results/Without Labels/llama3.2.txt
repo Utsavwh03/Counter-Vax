@@ -1,0 +1,18 @@
+Model Name : meta-llama/Llama-3.2-3B-Instruct
+Finetuned on Label Aware Prompt Set 
+Evaluated on Without Label Prompts on 997 test dataset on 100 samples 
+
+==================================================
+EVALUATION RESULTS
+==================================================
+ROUGE Scores:
+ROUGE-1: 28.40
+ROUGE-2: 5.00
+ROUGE-L: 16.02
+ROUGE-Lsum: 17.62
+
+BERTScore:
+Precision: 0.8701
+Recall: 0.8629
+F1: 0.8665
+==================================================

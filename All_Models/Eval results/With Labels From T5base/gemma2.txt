@@ -1,0 +1,52 @@
+Model Name : google/gemma-2b-it
+Finetuned on Label Aware Prompt Set 
+Evaluated on T5-large predictionss on 997 test dataset on 100 samples
+
+======================================================================
+EVALUATION RESULTS
+======================================================================
+ROUGE Scores:
+  ROUGE-1: 50.09
+  ROUGE-2: 18.76
+  ROUGE-L: 28.25
+  ROUGE-Lsum: 31.21
+
+BERTScore:
+  Precision: 0.8848
+  Recall: 0.8885
+  F1: 0.8866
+======================================================================
+
+
+======================================================================
+EVALUATION RESULTS
+======================================================================
+ROUGE Scores:
+  ROUGE-1: 50.35
+  ROUGE-2: 18.85
+  ROUGE-L: 28.67
+  ROUGE-Lsum: 30.68
+
+BERTScore:
+  Precision: 0.8860
+  Recall: 0.8898
+  F1: 0.8878
+======================================================================
+
+Results saved to: /home/sohampoddar/Restored Data/HDD2/sohampoddar/utsav/All_Models/Eval results/With Labels From T5base/gemma2b_with_predicted_labels_from_t5_without_labels.csv
+
+
+======================================================================
+COMPARISON SUMMARY
+======================================================================
+
+With Labels:
+  ROUGE-1: 50.09
+  ROUGE-L: 28.25
+  BERTScore F1: 0.8866
+
+Without Labels:
+  ROUGE-1: 50.35
+  ROUGE-L: 28.67
+  BERTScore F1: 0.8878
+======================================================================

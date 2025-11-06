@@ -1,0 +1,21 @@
+Model Name : google/gemma-2b-it
+Finetuned on Label Aware Prompt Set 
+Evaluated on Covid Twitter Bert Descriptions on 997 test dataset on 100 samples
+
+
+======================================================================
+EVALUATION RESULTS
+======================================================================
+ROUGE Scores:
+  ROUGE-1: 48.96
+  ROUGE-2: 18.07
+  ROUGE-L: 27.49
+  ROUGE-Lsum: 29.85
+
+BERTScore:
+  Precision: 0.8822
+  Recall: 0.8875
+  F1: 0.8848
+======================================================================
+
+
