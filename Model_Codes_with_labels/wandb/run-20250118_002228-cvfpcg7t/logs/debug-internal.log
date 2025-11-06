@@ -1,9 +1,0 @@
-{"time":"2025-01-18T00:22:28.579711316+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
-{"time":"2025-01-18T00:22:28.579742256+05:30","level":"INFO","msg":"created symlink","path":"/home/antpc/HDD2/sohampoddar/utsav/Model_Codes_with_labels/wandb/run-20250118_002228-cvfpcg7t/logs/debug-core.log"}
-{"time":"2025-01-18T00:22:28.798228992+05:30","level":"INFO","msg":"created new stream","id":"cvfpcg7t"}
-{"time":"2025-01-18T00:22:28.798303492+05:30","level":"INFO","msg":"stream: started","id":"cvfpcg7t"}
-{"time":"2025-01-18T00:22:28.798360176+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cvfpcg7t"}
-{"time":"2025-01-18T00:22:28.79841928+05:30","level":"INFO","msg":"handler: started","stream_id":"cvfpcg7t"}
-{"time":"2025-01-18T00:22:28.798481642+05:30","level":"INFO","msg":"sender: started","stream_id":"cvfpcg7t"}
-{"time":"2025-01-18T00:22:29.396498879+05:30","level":"INFO","msg":"Starting system monitor"}
-{"time":"2025-01-18T00:30:12.682523656+05:30","level":"INFO","msg":"Pausing system monitor"}
